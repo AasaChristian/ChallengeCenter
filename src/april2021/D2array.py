@@ -82,7 +82,7 @@ def hourglassSum(arr):
     loop = 4
     i = 0
     x = 0
-    count = 6
+    count = 4
     total = 0
     top = 0
     while count > 0:
@@ -98,4 +98,8 @@ def hourglassSum(arr):
         print(top, "top")
         count = count - 1
         loop = 4
+        i = 0
+        x = x+1
         print(count, "count")
+    return top
+           
