@@ -1,6 +1,4 @@
-
-
-
+# this code challenge was completed in SA2.py
 def matchingStrings(strings, queries):
     print(queries, "queries")
     print(strings, "strings")
@@ -16,3 +14,4 @@ def matchingStrings(strings, queries):
             if queries[i] == s:
                 ans[i] += 1
     return ans
+
