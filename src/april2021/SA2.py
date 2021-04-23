@@ -1,13 +1,7 @@
-
-
-
 def matchingStrings(strings, queries):
-    print(queries, "queries")
-    print(strings, "strings")
     # create a list of zero's the same length as queries list
     quelen = len(queries)
     ans = [0] * quelen
-    print(ans, "ans")
     # loop thru strings
     for s in strings:
         # inside string loops loop thru queries 
@@ -16,3 +10,5 @@ def matchingStrings(strings, queries):
             if queries[i] == s:
                 ans[i] += 1
     return ans
+
+print(matchingStrings(["sad","sad", "lad", "ed", "lad", "mad"],["lad", "ed", "mad", "mad"]))
